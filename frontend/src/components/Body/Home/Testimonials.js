@@ -27,7 +27,8 @@ function StarIcon() {
 
 const Testimonials = () => {
   return (
-    <div className="my-10">
+    <div className="my-10 w-full">
+      <hr className="h-px mx-8 my-8 bg-cyan-900 border-0" />
       <Typography variant="h2" className="my-10">
         Testimonials
       </Typography>
@@ -307,6 +308,7 @@ const Testimonials = () => {
           </div>
         )}
       </div>
+      <hr className="h-px mx-8 my-8 bg-cyan-900 border-0" />
     </div>
   );
 };
